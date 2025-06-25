@@ -1,0 +1,579 @@
+.mediaViewInfo {
+	--web-view-name: Contact;
+	--web-view-id: Contact;
+	--web-scale-on-resize: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Contact;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	outline: 1px dashed red;
+}
+#Contact {
+	position: absolute;
+	width: 1920px;
+	height: 3623px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Contact;
+	--web-view-id: Contact;
+	--web-scale-on-resize: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+	outline: 1px dashed red;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#aaa {
+	opacity: 0.804;
+	fill: rgba(148,235,79,1);
+}
+.aaa {
+	overflow: visible;
+	position: absolute;
+	width: 629.724px;
+	height: 617.813px;
+	transform: matrix(1,0,0,1,846.7177,2192.8634) rotate(174deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#aab {
+	opacity: 0.8;
+	fill: rgba(238,253,238,1);
+}
+.aab {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 480px;
+	left: 0px;
+	top: 0px;
+}
+#aac {
+	fill: rgba(234,251,253,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.aac {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 3623px;
+	left: 0px;
+	top: 0px;
+}
+#aad {
+	opacity: 0.502;
+	fill: rgba(148,235,79,1);
+}
+.aad {
+	overflow: visible;
+	position: absolute;
+	width: 1029.786px;
+	height: 1069.169px;
+	transform: matrix(1,0,0,1,837.1546,50.8924) rotate(186deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#aae {
+	border: 0;
+	left: 269px;
+	top: 346px;
+	position: absolute;
+	overflow: visible;
+	width: 1049px;
+	height: 479px;
+	text-align: center;
+	font-family: Impact;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 190px;
+	color: rgba(54,92,24,1);
+}
+#aaf {
+	border: 0;
+	left: 268.5px;
+	top: 1170.954px;
+	position: absolute;
+	overflow: visible;
+	width: 1384px;
+	height: 46px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	color: rgba(54,92,24,1);
+}
+#aag {
+	border: 0;
+	left: 268.5px;
+	top: 1262.951px;
+	position: absolute;
+	overflow: visible;
+	width: 1384px;
+	height: 92px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	color: rgba(54,92,24,1);
+}
+#aah {
+	position: absolute;
+	width: 117.787px;
+	height: 117.787px;
+	left: 661.713px;
+	top: 1748.544px;
+	overflow: visible;
+}
+#aai {
+	position: absolute;
+	width: 117.787px;
+	height: 117.787px;
+	left: 1001.022px;
+	top: 1748.544px;
+	overflow: visible;
+}
+#aaj {
+	position: absolute;
+	width: 117.787px;
+	height: 117.787px;
+	left: 1389.22px;
+	top: 1748.544px;
+	overflow: visible;
+}
+#aak {
+	border: 0;
+	left: 171.166px;
+	top: 2031.631px;
+	position: absolute;
+	overflow: visible;
+	width: 1384px;
+	height: 92px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	color: rgba(54,92,24,1);
+}
+#aal {
+	border: 0;
+	left: 614.918px;
+	top: 1912.328px;
+	position: absolute;
+	overflow: hidden;
+	width: 940.248px;
+	height: 47.36181640625px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(54,92,24,1);
+}
+#aam {
+	border: 0;
+	left: 146.131px;
+	top: 1795.134px;
+	position: absolute;
+	overflow: visible;
+	width: 324px;
+	height: 60px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(54,92,24,1);
+}
+#aan {
+	border: 1px solid rgba(54,92,24,1);
+	left: 144.503px;
+	top: 2415.31px;
+	position: absolute;
+	overflow: hidden;
+	width: 382.599px;
+	height: 73.935791015625px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(54,92,24,1);
+}
+#aao {
+	border: 1px solid rgba(54,92,24,1);
+	left: 143.872px;
+	top: 2597.042px;
+	position: absolute;
+	overflow: visible;
+	width: 866px;
+	height: 46px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(54,92,24,1);
+}
+#aap {
+	border: 0;
+	left: 142.66px;
+	top: 2714.982px;
+	position: absolute;
+	overflow: visible;
+	width: 822.159px;
+	height: 105.6261978149414px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(54,92,24,1);
+}
+#aaq {
+	border: 1px solid rgba(54,92,24,1);
+	left: 141.011px;
+	top: 2892.549px;
+	position: absolute;
+	overflow: visible;
+	width: 584px;
+	height: 46px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(54,92,24,1);
+}
+#aar {
+	border: 0;
+	left: 142.66px;
+	top: 2995.562px;
+	position: absolute;
+	overflow: visible;
+	width: 818.751px;
+	height: 102.2188949584961px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(54,92,24,1);
+}
+#aas {
+	border: 0;
+	left: 143.489px;
+	top: 3254.516px;
+	position: absolute;
+	overflow: visible;
+	width: 924.377px;
+	height: 163.55023193359375px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(54,92,24,1);
+}
+#aat {
+	border: 0;
+	left: 142.66px;
+	top: 3131.854px;
+	position: absolute;
+	overflow: hidden;
+	width: 818.751px;
+	height: 47.702152252197266px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(20,137,222,1);
+}
+#aau {
+	border: 0;
+	left: 141.011px;
+	top: 2535.243px;
+	position: absolute;
+	overflow: visible;
+	width: 392.839px;
+	height: 57.92404556274414px;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(54,92,24,1);
+}
+#aav {
+	fill: rgba(255,255,255,1);
+}
+.aav {
+	filter: drop-shadow(0px 10px 5px rgba(54, 92, 24, 1));
+	overflow: visible;
+	position: absolute;
+	width: 278.758px;
+	height: 281.258px;
+	left: 828.121px;
+	top: 2123.631px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: About_us.html;
+	cursor: pointer;
+}
+#aaw {
+	fill: rgba(54,92,24,1);
+}
+.aaw {
+	overflow: visible;
+	position: absolute;
+	width: 96.699px;
+	height: 77.359px;
+	left: 142.66px;
+	top: 1155.275px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#aax {
+	position: absolute;
+	width: 225px;
+	height: 124px;
+	left: 174px;
+	top: 111px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Home_page.html;
+	cursor: pointer;
+}
+#aay {
+	position: absolute;
+	width: 225px;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aaz {
+	filter: blur(3.938px);
+	fill: rgba(247,192,252,1);
+}
+.aaz {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+}
+#aba {
+	border: 0;
+	left: 38px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(171,60,181,1);
+}
+#abb {
+	position: absolute;
+	width: 226px;
+	height: 124px;
+	left: 462px;
+	top: 111px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Recipe.html;
+	cursor: pointer;
+}
+#abc {
+	position: absolute;
+	width: 226px;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#abd {
+	filter: blur(3.938px);
+	fill: rgba(247,192,252,1);
+}
+.abd {
+	position: absolute;
+	overflow: visible;
+	width: 226px;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+}
+#abe {
+	border: 0;
+	left: 23px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 172px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 59px;
+	color: rgba(171,60,181,1);
+}
+#abf {
+	position: absolute;
+	width: 315px;
+	height: 124px;
+	left: 1143px;
+	top: 111px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: About_us.html;
+	cursor: pointer;
+}
+#abg {
+	position: absolute;
+	width: 315px;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#abh {
+	filter: blur(3.938px);
+	fill: rgba(247,192,252,1);
+}
+.abh {
+	position: absolute;
+	overflow: visible;
+	width: 315px;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+}
+#abi {
+	border: 0;
+	left: 41px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 228px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 59px;
+	color: rgba(171,60,181,1);
+}
+#abj {
+	position: absolute;
+	width: 225px;
+	height: 124px;
+	left: 1521px;
+	top: 111px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+}
+#abk {
+	position: absolute;
+	width: 225px;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#abl {
+	filter: blur(3.938px);
+	fill: rgba(247,192,252,1);
+}
+.abl {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+}
+#abm {
+	border: 0;
+	left: 44px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Clicker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(171,60,181,1);
+}
+#abn {
+	position: absolute;
+	width: 329px;
+	height: 237px;
+	left: 751px;
+	top: 55px;
+	overflow: visible;
+}
+#abo {
+	filter: drop-shadow(10px 30px 15px rgba(54, 92, 24, 1));
+	position: absolute;
+	width: 893.012px;
+	height: 738.127px;
+	left: 960px;
+	top: 2593.167px;
+	overflow: visible;
+}
+#abp {
+	opacity: 0.699;
+	filter: drop-shadow(0px 30px 15px rgba(54, 92, 24, 1));
+	position: absolute;
+	width: 354.501px;
+	height: 268.548px;
+	left: 239.358px;
+	top: 1400.949px;
+	overflow: visible;
+}
